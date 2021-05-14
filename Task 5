@@ -1,0 +1,35 @@
+q,Write a C program to determine the area
+of a square, circle, and a triangle taking
+length, radius, and base and height respectively
+from user input
+
+
+
+
+#include<stdio.h>
+#include<string.h>
+#include<math.h>
+#include<stdlib.h>
+
+int main() {
+int side,height,base,radius,area;
+float pie = 3.14;
+float areac, areat; 
+
+scanf("%d",&side);
+area = side * side; 
+
+scanf("%d",&radius);
+areac =(float) (pie * radius *radius);
+
+scanf("%d%d",&base, &height);
+
+areat =(base*height)/(float)2;
+
+printf("%d",area);
+printf("\n%.1f",areac);
+printf("\n%.2f",areat);
+
+
+    return 0;
+}
