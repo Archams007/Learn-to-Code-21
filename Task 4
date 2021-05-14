@@ -1,0 +1,21 @@
+q, Write a C program to read an integer and 
+find its square root
+
+
+
+#include<stdio.h>
+#include<string.h>
+#include<math.h>
+#include<stdlib.h>
+
+int main() {
+double no, root; 
+
+scanf("%lf",&no);
+root=sqrt(no);
+
+printf("%0.1lf",root);
+
+
+    return 0;
+}
