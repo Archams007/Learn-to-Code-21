@@ -1,0 +1,30 @@
+q, write a c program to perform read 
+and print operations using four basic data types 
+in c(int,char,float,double)
+
+
+
+#include<stdio.h>
+#include<string.h>
+#include<math.h>
+#include<stdlib.h>
+
+int main() {
+
+ char a; 
+ int b; 
+ float g; 
+ double d; 
+
+scanf("%c",&a);
+scanf("%d",&b);
+scanf("%f",&g);
+scanf("%lf",&d);
+
+printf("%c\n",a);
+printf("%d\n",b);
+printf("%f\n",g);
+printf("%lf\n",d);
+
+    return 0;
+}
