@@ -29,6 +29,7 @@ scanf("%d",&n);
         break; 
      case 7:
         printf("Saturday");
+         break; 
      default:
         printf("Error");
          break; 
