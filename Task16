@@ -1,0 +1,22 @@
+//Q, Write a C program to identify if
+a number is a palindrome or not. 
+
+#include<stdio.h>
+int main(){
+int num1,reverse_num=0,remainder,temp;
+scanf("%d",&num1);
+
+temp=num1;
+while(temp !=0)
+{
+   remainder =temp%10;
+   reverse_num= reverse_num*10+remainder;
+   temp/=10;
+}
+    if(reverse_num ==num1) 
+    printf("Yes");
+    else
+    printf("No");
+    return 0;
+    }
+    
