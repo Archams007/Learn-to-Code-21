@@ -2,7 +2,7 @@ Q, Write a C program to compute the multiplication
 table of 1-5 using do while. 
 
 
-
+#include<stdio.h>
 #include<stdlib.h>
 int main() {
    do
