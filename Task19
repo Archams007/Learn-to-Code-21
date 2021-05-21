@@ -1,0 +1,25 @@
+//Q, write a C program to print the Fibonacci 
+//series starting from 0 and the upper 
+//limit is determined by the user
+
+        
+#include<stdio.h>
+int main()
+{
+int p, q, result, n, i; 
+scanf("%d",&n);
+
+p=0;
+q=1;
+for(i=1;i<=n;i++)
+{
+printf("%d ",p);
+result = p+q;
+p=q;
+q= result;
+}
+
+
+return 0;
+}
+ 
