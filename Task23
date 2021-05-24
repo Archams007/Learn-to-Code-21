@@ -1,0 +1,23 @@
+//Q, Write a C program to check whether 
+//a number is present in the 1D array 
+//or not
+
+#include<stdio.h>
+int main() {
+int i, p,q,myarray[10];
+scanf("%d",&p);
+for(i=0;i<p;i++)
+{
+  scanf("%d",&myarray[i]);
+}
+ scanf("%d",&q);
+ for(i=0;i<q;i++)
+{
+  if (myarray[i] ==q) 
+{
+  printf("%d is present in this array",q); 
+   return 0;
+  }
+}
+printf("%d is not present in this array",q);
+}
