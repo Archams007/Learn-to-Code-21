@@ -1,0 +1,36 @@
+Write a C program to find the number of prime numbers in a array of integers
+
+#include<stdio.h>
+
+int main()   {
+    int myarray[100];
+    int count,p,sum=0;
+    int i,j,k;
+    scanf("%d",&p);
+    for(i=0;i<p;i++)
+    {
+        scanf("%d",&myarray[i]);
+    }
+    count=0;
+    
+    for(i=0;i<p;i++)
+    {
+        k=0;
+        for(j=2;j<myarray[i];j++)
+        {
+            if(myarray[i]%j==0)
+            {
+                k=1;
+                break;
+            }
+            
+        }
+        if(k==0)
+        {
+            count++;
+        }
+        
+    }
+    printf("%d",count);
+    return 0;
+}
